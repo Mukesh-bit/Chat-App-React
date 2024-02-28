@@ -1,0 +1,109 @@
+
+.join_room {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;  
+}
+
+.join_room form {
+  background-color: #f5f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.join_room button {
+  width: 100%;
+}
+
+.chatContainer {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.chatBox {
+  background-color: #d8d7d7;
+  height: 500px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.chatBody {
+  position: absolute;
+  bottom: 0;
+}
+
+.chatBody input {
+  height: 40px;
+  width: 448px;
+  outline: none;
+  padding: 0 10px;
+}
+
+.chatBody input::placeholder {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.chatBody button {
+  width: 50px;
+  cursor: pointer;
+}
+
+.chatBody button i {
+  font-size: 22px;
+}
+
+.msgContent {
+  display: flex;
+  line-height: 0;
+  margin: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+
+#you {
+  justify-content: end;
+}
+#y {
+  background-color: rgb(107, 219, 107);
+  padding: 5px;
+  border-radius: 5px;
+}
+#y p {
+  margin: 0;
+  padding: 10px;
+}
+
+#other {
+  justify-content: flex-start;
+}
+#o{
+  background-color: rgb(222, 230, 224);
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+} 
+#o p {
+  margin: 0;
+  padding: 10px;
+}
+
+.msgDetail {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+
+.autoScrollBar::-webkit-scrollbar{
+  display: none;
+}
